@@ -21,10 +21,10 @@ endef
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
 define SUBPROJECT_REPOS
-https://github.com/reactioncommerce/reaction-hydra.git,reaction-hydra,v3.0.0 \
-https://github.com/reactioncommerce/reaction.git,reaction,v3.5.0 \
-https://github.com/reactioncommerce/reaction-identity.git,reaction-identity,v3.0.0 \
-https://github.com/reactioncommerce/reaction-admin.git,reaction-admin,v3.0.0-beta.6 \
+https://github.com/hrushikesh09/reaction-hydra.git,reaction-hydra,v3.0.0-prod \
+https://github.com/hrushikesh09/reaction.git,reaction,v3.5.0-prod \
+https://github.com/hrushikesh09/reaction-identity.git,reaction-identity,v3.0.0 \
+https://github.com/hrushikesh09/reaction-admin.git,reaction-admin,v3.0.0-beta.6 \
 https://github.com/hrushikesh09/example-storefront.git,example-storefront,master
 endef
 
